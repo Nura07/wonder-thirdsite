@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo3';
+
+parentname=""
+ sentData(myname:any){
+  this.parentname=myname;
+}
 }
